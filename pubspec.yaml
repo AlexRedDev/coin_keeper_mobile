@@ -1,0 +1,42 @@
+name: coin_keeper_mobile
+description: Coin Keeper
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.4 <3.1.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  riverpod: ^2.3.6
+  cupertino_icons: ^1.0.2
+  flutter_riverpod: ^2.3.6
+  flutter_svg: ^2.0.5
+  flutter_screenutil: ^5.7.0
+  supabase_flutter: ^1.8.1
+  flutter_dotenv: ^5.0.2
+  path_provider: ^2.0.14
+  json_annotation: ^4.8.1
+  google_fonts: ^4.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  json_serializable: ^6.6.2
+  build_runner: ^2.3.3
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - .env
+    - assets/svg/
+
